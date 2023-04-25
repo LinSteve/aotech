@@ -1,0 +1,3 @@
+<?php
+echo define('CONFIG_PATH', __DIR__);
+?>
