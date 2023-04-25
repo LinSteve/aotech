@@ -1,0 +1,627 @@
+/*字型*/
+*{
+    font-family:"微軟正黑體",-apple-system,BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol";
+    
+}
+
+/*font-size*/
+h1{
+    font-size: 30px;
+}
+.label-right, .label-center, .label-left,
+.card-header h6{
+    font-size: 21px;
+    font-weight: 600;
+}
+/*按鈕*/
+/*查詢&確認更新*/
+.btnfont-21{
+    font-size: 21px;
+}
+.btnfont-30, form.user .btn-user{
+    font-size: 30px;
+}
+#ng_data_div h4,#ng_data_div span,#ng_data_div p,
+#rd_data_div h4,#rd_data_div span,#rd_data_div p,
+#mt_data_div h4,#mt_data_div span,#mt_data_div p,
+#pm_data_div h4,#pm_data_div span,#pm_data_div p,
+#pm_data_div h4,#pm_data_div span,#pm_data_div p,
+#mr_data_div h4,#mr_data_div span,#mr_data_div p{
+    font-size: 16px;
+    margin-bottom: 0;   
+}
+
+/*font-對齊*/
+h1, .h3, h4 , .label-center{
+    text-align: center;
+}
+.label-right{
+    text-align: right;
+}
+.label-left{
+    text-align: left;
+}
+.label-top{ margin: 8px 0;}
+
+/*color-font*/
+h1{
+    color:#006666;
+}
+.sidebar-dark .nav-item .nav-link span,
+.card-header h6 {
+    color: #ffffff;
+}
+.label-right, .label-center, .label-left,tbody, .contact-us li{
+    color: #193939;
+}
+.NG-color, 
+.text-orange,.text-orange:focus, .text-orange:hover {
+    color:#FF8367;
+}
+.text-blue{
+    color:#1c606a;
+}
+
+/*normal & text_ng 有綁後端設定！*/
+.text_normal {
+    color: #193939;
+}
+.text_ng {
+    color: #FF8367;
+}
+
+/*color-border*/
+hr {
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+.border-top-success{
+    border-top: .25rem solid #1cc88a!important;
+}
+.border-right-danger {
+    border-right: .25rem solid #e74a3b!important;
+}
+
+.border-right-info{
+    border-right: .25rem solid #36b9cc!important;
+}
+
+
+/*bg*/
+/*header、footer、nav、content-wrapper bg*/
+.bg-gray ,#wrapper #content-wrapper {
+    background-color: #f7f7f7;
+}
+.bg-gradient-darkblue{
+    background-color: #14213d;
+    background-image: linear-gradient(180deg,#14213d 10%,#373840 100%);
+    background-size: cover;
+}
+.bg-gradient-primary{
+    background-color:#f8f8f8;
+    background-image:unset;
+}
+/*card、btn*/
+.card-header, .btn-primary2{
+    background-color:#006666;
+}
+.btn-primary2{
+    border-color: none;
+}
+
+.alert-orange{
+    background-color: #FFF4F1;
+    border-color: #FF8367;
+}
+
+/*TABLE 設定*/
+/*TABLE 垂直置中*/
+.table .thead-green th,
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+.table .thead-green th{
+    background-color: #006666;
+    color:#F0F7F7;
+}
+.table td, .table th{
+    font-size: large;
+    white-space: nowrap;
+
+}
+.table tbody tr{
+    border-bottom: solid 2px #006666;
+}
+/*table 指定欄位斷行*/
+table .contact tr td:nth-child(5),
+table .contact tr td:nth-child(6),
+table .contact tr td:nth-child(7),
+table .contact tr td:nth-child(8),
+table .error-message tr td:nth-child(2),
+table .log tr td:nth-child(3),
+table .kiosk tr td:nth-child(4){ 
+    white-space: normal;
+    text-align: left;
+}
+
+/*TABLE 顏色切換*/
+table tbody tr:nth-child(n) {
+    background-color: #ffffff;
+}
+table tbody tr:nth-child(2n+1) {
+    background-color: #F0F7F7;
+}
+
+/*宿舍硬體系統檢測-icon*/
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.top_ico_nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top_ico_nav li{
+    float: left;
+    text-align: -webkit-center;
+}
+.top_ico_nav li a span.menu_label {
+    display: block;
+    font-size: 21px;
+    padding-top: 4px;
+}
+.top_ico_nav li a {
+    /*border: 1px solid #e1e1e1;
+    padding: 12px 5px 10px;
+    position: relative;    
+    */
+    width: fit-content;
+    text-align: center;
+    display: block;
+    color: #1d3557;
+    text-decoration: none;
+    background: none;
+
+}
+.top_ico_nav li a:active,
+.top_ico_nav li a:hover,
+/*.nav-tabs .nav-link.active,*/
+a:hover{
+    color:#4ecdc4;
+}
+/*跳頁文字顏色*/
+#dataTable_paginate a{
+    color:#006666;
+}
+#dataTable_paginate a:hover{
+    text-decoration: none;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.nav-pills .nav-link.active{
+    color:#4ecdc4;
+    background-color: unset;
+}
+
+
+
+/*宿舍硬體系統檢測-卡片樣式*/
+.h-282{
+    height: 215px;
+}
+.card-green{
+    border: 2px solid #006666;
+    background-color: #F0F7F7;
+}
+
+/*外距*/
+.mb-2{
+    margin-bottom: 3rem !important;
+}
+.mar-bot25{
+    margin-bottom: 25px;
+}
+.my-6{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/*按鈕*/
+.btn-martop30,  .mar-top30{
+    margin-top: 30px;
+
+}
+.btn-martop20{
+    margin-top: 20px;
+}
+.btn-marbot20{
+    margin-bottom: 20px;
+}
+
+
+/*內距*/
+.mar-bot50{
+    margin-bottom:50px ;
+}
+
+/*按鈕樣式*/
+/*查詢&確認更新*/
+.button:hover{
+    background: #FF8367;
+}
+button:hover, .button:hover, .btn-user:hover {
+    background-color: #f78a76;
+}
+/*按鈕-orange*/
+.btn-orange {
+    color: #fff;
+    background-color: #f78a76;
+    border-color: #f78a76;
+}
+  
+.btn-orange:hover {
+    color: #fff;
+    background-color:#f57e51;
+    border-color: #f57e51;
+}
+  
+.btn-orange:focus, .btn-orange.focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 147, 147, 0.5);
+}
+  
+.btn-orange.disabled, .btn-orange:disabled {
+    color: #fff;
+    background-color: #f78a76;
+    border-color: #f78a76;
+}
+
+.btn-orange:not(:disabled):not(.disabled):active, .btn-orange:not(:disabled):not(.disabled).active,
+.show > .btn-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #f57e51;
+    border-color: #f57e51;
+}
+  
+.btn-orange:not(:disabled):not(.disabled):active:focus, .btn-orange:not(:disabled):not(.disabled).active:focus,
+.show > .btn-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 147, 147, 0.5);
+}
+/*邊框樣式*/
+.border-left-orange {
+    border-left: 0.25rem solid  #f57e51 !important;
+}
+.border-right-orange {
+    border-right: 0.25rem solid  #f57e51 !important;
+}
+/*置頂按鈕*/
+.scroll-to-top{
+    z-index: 10;
+ }
+.text-green{
+    color: #006666;
+    font-weight: bold;
+    font-size:21px;
+}
+.btn-h-auto{
+    height:auto;
+    padding-left: 0;/*確認更新文字爆版處理*/
+    padding-right: 0;
+}
+/*客服按鈕*/
+.btn-block{
+    display: block;
+    margin: 0 auto;
+}
+/*icon樣式*/
+.text-orange{
+    font-weight: bold;
+    font-size:21px;
+}
+
+/*系統使用現況*/
+.fz-18{
+    font-size: 18px;
+}
+.nowsystem ul {
+    padding: 0 5px 0;
+}
+.nowsystem ul li,
+.study-rate ul li{
+    display: block;
+}
+.nowsystem ul li .b-align{
+    white-space: normal;
+    text-align: left;
+}
+.b-label{
+    background: #006666;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 3px;
+    line-height: 2.25;
+}
+.nowsystem ul li .b-left{
+    float: left;
+}
+.study-rate ul li{
+    padding: 0;
+}
+
+/*費率&收費設定 */
+/*input type=search修改樣式*/
+select.input-lg2{
+    line-height: 34px;
+}
+input[type="search"],input[type="number"], select.form-control[size]{
+    height: 3em;
+}
+
+/*宿舍房間初始化*/
+/*icon樣式*/
+.power-on{
+    color:#24D354 ;
+}
+.power-off {
+    color: #7C7B7B;
+}
+
+/*初始化icon btn樣式*/
+.btn-circle.btn-lg2, .btn-group-lg2>.btn-circle.btn {
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 2rem;
+}
+
+/*電力開關卡號、姓名樣式*/
+.b-align{
+    white-space: nowrap;
+    text-align: left;
+    /*padding: 0 0 0 10%;*/
+}
+.b-label {
+    background: #006666;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 3px;
+    margin: 0 5px 0px;
+    line-height: 2.25;
+}
+/*查詢框大小*/
+.input-group>.form-control:not(:first-child) {
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+/*查詢框大小 old版方法
+input[type="text"], input[type="date"], input[type="password"], input[type="email"], select, .time-height {
+    height: 3.5em;
+    line-height: 3.5em;
+}*/
+
+select{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+select::-ms-expand { display: none; }
+
+/*輸入文字框文字大小*/
+input[type="search"],input[type="number"], select.form-control[size],
+.custom-select-lg,
+.custom-select-lg:focus,
+.input-group-lg>.custom-select, 
+.input-group-lg>.form-control, 
+.input-group-lg>.input-group-append>.btn, 
+.input-group-lg>.input-group-append>.input-group-text, 
+.input-group-lg>.input-group-prepend>.btn, 
+.input-group-lg>.input-group-prepend>.input-group-text{
+    font-size:18px;
+    font-weight: 600;
+    color:#006666;
+}
+/*input placeholder修改*/
+.form-control::-webkit-input-placeholder {
+    color: #006666 !important;
+}
+.form-control:-ms-input-placeholder {
+    color: #006666!important;
+}
+.form-control::-ms-input-placeholder {
+    color: #006666 !important;
+  }
+.form-control::placeholder {
+    color: #006666 !important;
+}
+
+/*input placeholder focus修改*/
+.form-control:focus::-webkit-input-placeholder {
+    color: #a8a8a8 !important;
+}
+.form-control:focus:-ms-input-placeholder {
+    color: #a8a8a8!important;
+}
+.form-contro:focus::-ms-input-placeholder {
+    color: #a8a8a8 !important;
+  }
+.form-control:focus::placeholder {
+    color: #a8a8a8 !important;
+}
+/*textarea設定*/
+textarea.form-control,textarea.form-control:focus{
+    color:#006666;
+    font-size:18px;
+    font-weight: 600;
+}
+/*checkbox設定*/
+.form-check-input{
+    position:static;
+}
+table .varlist tr :nth-child(8) {
+    font-size: 18px;
+    vertical-align: middle;
+}
+input[type="checkbox"] + label{
+    cursor: pointer;
+    display: inline-block;
+    padding-right: 0.75em;
+    position: relative;
+}
+/*隱藏預設checkbox*/
+input[type="checkbox"]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    display: block;
+    float: left;
+    margin-right: -2em;
+    opacity: 0;
+    width: 1em;
+    z-index: -1;
+}
+input[type="checkbox"] + label:before{
+    background: #FFF;
+    border: solid 3px #FF8367;
+    border-radius: 4px;
+    content: '';
+    display: inline-block;
+    height: 1.65em;
+    width: 1.65em;
+    line-height: 1.58125em;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Font Awesome 5 Free' !important;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+    position: absolute;
+    left:-35px;
+    top:-21px;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background: #FF8367;
+    border: solid 2px #FF8367;
+    color: #ffffff;
+    content: '\f00c';
+    content: '\2714';
+}
+.ch-top:before{
+    top:-4px !important;
+}
+/*bootstrap-select設定*/
+.open>.dropdown-menu {
+    display: block;
+}
+.btn-default{
+    height: 3rem;
+    padding: .5rem 1.25rem .5rem 1rem;
+    border: 1px solid #d1d3e2;
+}
+.bootstrap-select .dropdown-toggle:focus {
+    outline: thin dotted #333333 !important;
+    outline: unset !important; 
+    outline-offset: -2px;
+}
+.btn-default:hover {
+    background-color: unset;
+}
+
+/*bootstrap-select-選項、預設提示字換色*/
+.bootstrap-select > .dropdown-toggle[title],
+.bootstrap-select > .dropdown-toggle[title]:hover,
+.bootstrap-select > .dropdown-toggle[title]:focus,
+.bootstrap-select > .dropdown-toggle[title]:active,
+.dropdown-menu>li>a {
+    color:#006666;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover, 
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus, 
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active{
+    color:#006666 !important;
+}
+/*bootstrap-select-下拉選單選項位置調整*/
+.dropdown-menu>li>a{
+    padding: 0px 20px;
+}
+/*bootstrap-select-倒三角造型*/
+.dropup .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: .3em solid transparent;
+    border-bottom: .3em solid;
+    border-left: .3em solid transparent;
+}
+/*客服人員-處理狀況*/
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.contact-us li{
+    list-style-type: decimal;
+    text-align: left;
+    line-height:2.5;
+    font-size:18px;
+}
+
+@media (max-width: 768px){
+    .my-6{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link[data-toggle=collapse]::after/*, .dropdown-toggle::after*/{
+    width: 1rem;
+    text-align: center;
+    float: right;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    }
+
+    .sidebar .nav-item .nav-link i ,
+    .sidebar .nav-item .nav-link span{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+
+}
+@media screen and (max-width: 575px){
+    .label-right,.label-left {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    h4{
+        font-size: 21px;
+    }
+    .text-green {
+        font-size: 18px;
+    }
+    .ml-4{
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 375px){
+    .font-21{
+        font-size: 21px;
+    }
+}
