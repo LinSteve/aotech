@@ -1,4 +1,5 @@
 <?php 
+include_once('config/db.php');
 $rs  = $PDOLink->query("SELECT * FROM recaptcha_key WHERE id = '1' ");
 $row = $rs->fetch();
 $SITE_KEY = $row['site_key'];
